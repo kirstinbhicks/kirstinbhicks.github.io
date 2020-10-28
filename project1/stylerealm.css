@@ -1,0 +1,298 @@
+body {
+    background-color: #4A8C8C;
+    margin: auto;
+    padding: auto;
+}
+
+.center {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-top: -86px;
+}
+
+nav div {
+    flex: 1;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    color: #402132;
+    text-decoration: none;
+    background-color: #F2E2C4;
+    padding: 15px 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #402132;
+}
+
+.nav-item:hover {
+    background-color: #A64444;
+    color: #F2E2C4;
+}
+
+main {
+    width: 100vw;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    z-index: 4;
+    position: absolute;
+}
+
+.al {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    padding: 10px;
+    align-self: baseline;
+}
+
+.bl {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    padding: 10px;
+    align-self: baseline;
+}
+
+.cl {
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    padding: 10px;
+    align-self: baseline;
+}
+
+.dl {
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    padding: 10px;
+    align-self: baseline;
+}
+
+.el {
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    padding: 10px;
+    align-self: baseline;
+}
+
+.ar {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    padding: 10px;
+    align-self: baseline;
+}
+
+.br {
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    padding: 10px;
+    align-self: baseline;
+}
+
+.cr {
+    grid-row-start: 6;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    padding: 10px;
+    align-self: baseline;
+}
+
+.dr {
+    grid-row-start: 8;
+    grid-row-end: 10;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    padding: 10px;
+    align-self: baseline;
+}
+
+.hla {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    justify-self: center;
+    align-self: baseline;
+    padding: 8px;
+}
+
+.hlb {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    justify-self: center;
+    align-self: baseline;
+    padding: 8px;
+}
+
+.hlc {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    justify-self: center;
+    align-self: baseline;
+    padding: 8px;
+}
+
+.hld {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    justify-self: center;
+    align-self: baseline;
+    padding: 8px;
+}
+
+.hle {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    justify-self: center;
+    align-self: baseline;
+    padding: 8px;
+}
+
+.hra {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    justify-self: center;
+    align-self: baseline;
+    padding: 8px;
+}
+
+.hrb {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    justify-self: center;
+    align-self: baseline;
+    padding: 8px;
+}
+
+.hrc {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    justify-self: center;
+    align-self: baseline;
+    padding: 8px;
+}
+
+.hrd {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    border-color: #402132; 
+    border-width: 2px;
+    border-style: solid;
+    background-color: #F2E2C4;
+    justify-self: center;
+    align-self: baseline;
+    padding: 8px;
+}
