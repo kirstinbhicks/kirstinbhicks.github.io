@@ -11,6 +11,19 @@ body {
     margin-right: auto;
 }
 
+
+h1 {
+    text-align: center;
+    z-index: 8;
+    margin: 0;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 500px;
+    margin-right: 450px;
+    font-size: 56px;
+    color: #A64444;
+}
+
 nav {
     display: flex;
     margin-left: 25px;
@@ -295,4 +308,106 @@ main {
     justify-self: center;
     align-self: baseline;
     padding: 8px;
+}
+
+
+.imga {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top: 100px;
+    justify-self: center;
+    width: 200px;
+    height: auto;
+}
+
+.imgb {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top: 100px;
+    justify-self: center;
+    width: 200px;
+    height: auto;
+}
+
+.imgc {
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top: 100px;
+    justify-self: center;
+    width: 200px;
+    height: auto;
+}
+
+.imgd {
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top: 100px;
+    justify-self: center;
+    width: 200px;
+    height: auto;
+}
+
+.imge {
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top: 100px;
+    justify-self: center;
+    width: 200px;
+    height: auto;
+}
+
+
+
+.imgf {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding-top: 100px;
+    justify-self: center;
+    width: 200px;
+    height: auto;
+}
+
+.imgg {
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding-top: 100px;
+    justify-self: center;
+    width: 200px;
+    height: auto;
+}
+
+.imgh {
+    grid-row-start: 6;
+    grid-row-end: 8;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding-top: 100px;
+    justify-self: center;
+    width: 200px;
+    height: auto;
+}
+
+.imgi {
+    grid-row-start: 8;
+    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding-top: 100px;
+    justify-self: center;
+    width: 200px;
+    height: auto;
 }

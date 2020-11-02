@@ -11,6 +11,18 @@ body {
     margin-right: auto;
 }
 
+h1 {
+    text-align: center;
+    z-index: 8;
+    margin: 0;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 525px;
+    margin-right: 450px;
+    font-size: 56px;
+    color: #A64444;
+}
+
 nav {
     display: flex;
     margin-left: 39px;
