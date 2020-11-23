@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    width: 100vw;
+}
+
+.background {
+    background-size: cover;
+    margin: 0 auto;
+} 
