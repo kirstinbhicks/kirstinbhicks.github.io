@@ -1,9 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
 body {
     margin: 0;
-    width: 100vw;
+    padding: 0;
+}
+
+.logo-box {
+    margin-top: 12%;
+    display: flex;
+    position: absolute;
+    margin: auto;
+    align-items: baseline;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+}
+
+.logo {
+    height: auto;
+    max-width: 23%;
+    flex: 1;
+}
+
+.background-box {
+    display: flex;
+    width: 100%;
+    align-items: baseline;
 }
 
 .background {
-    background-size: cover;
-    margin: 0 auto;
+    flex: 1;
+    max-width: 100%;
+    height: auto;
 } 
+
+.album-box {
+    display: flex;
+    position: absolute;
+    align-items: baseline;
+    width: 100%;
+}
+
+.album {
+    margin-top: 17%;
+    margin-left: 5.5%;
+    width: 38%;
+    height: auto;
+}
+
+.merch-box {
+    display: flex;
+    position: absolute;
+    align-items: baseline;
+    width: 100%;
+}
+
+.merch {
+    margin-top: 23%;
+    margin-left: 57.5%;
+    width: 38%;
+    height: auto;
+}
+
+.history-box {
+    display: flex;
+    position: absolute;
+    align-items: baseline;
+    width: 100%;
+}
+
+.history {
+    margin-top: 57%;
+    margin-left: 4%;
+    width: 38%;
+    height: auto;
+}
+
+.contact-box {
+    display: flex;
+    position: absolute;
+    align-items: baseline;
+    width: 100%;
+}
+
+.contact {
+    margin-top: 64%;
+    margin-left: 57.5%;
+    width: 38%;
+    height: auto;
+}
