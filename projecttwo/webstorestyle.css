@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.logo-box {
+    display: flex;
+    position: absolute;
+    padding-left: 15px;
+    align-items: baseline;
+    width: 90%;
+}
+
+.logo {
+    height: auto;
+    max-width: 12%;
+    flex: 1;
+}
+
+.nav {
+    margin-left: 13%;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.nav-item {
+    flex: 1;
+    max-width: 65%;
+    height: auto;
+    box-sizing: content-box;
+}
